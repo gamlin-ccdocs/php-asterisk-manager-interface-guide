@@ -1,0 +1,32 @@
+{
+    "name": "vicistack/asterisk-manager-interface-guide",
+    "description": "Asterisk Manager Interface (AMI): The Complete Developer Guide",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "vicidial",
+        "asterisk",
+        "call-center",
+        "voip",
+        "predictive-dialer",
+        "asterisk",
+        "manager",
+        "interface",
+        "guide"
+    ],
+    "homepage": "https://vicistack.com/blog/asterisk-manager-interface-guide/",
+    "authors": [
+        {
+            "name": "ViciStack",
+            "homepage": "https://vicistack.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ViciStack\\AsteriskManagerInterfaceGuide\\": "src/"
+        }
+    }
+}
